@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>17351ED6-963B-4367-8134-A052D6DDA918</string>
+	<key>IDESourceControlProjectName</key>
+	<string>tumblr</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F26C31B5BEC3A7CDE03B522B1C8C02AFB9C5B65A</key>
+		<string>https://github.com/seejayne/tumblr.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>tumblr.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F26C31B5BEC3A7CDE03B522B1C8C02AFB9C5B65A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/seejayne/tumblr.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F26C31B5BEC3A7CDE03B522B1C8C02AFB9C5B65A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F26C31B5BEC3A7CDE03B522B1C8C02AFB9C5B65A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>tumblr</string>
+		</dict>
+	</array>
+</dict>
+</plist>

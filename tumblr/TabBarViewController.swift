@@ -14,7 +14,7 @@ class TabBarViewController: UIViewController {
     var searchViewController : UIViewController!
     var accountViewController : UIViewController!
     var trendingViewController : UIViewController!
-
+    var loginViewController : UIViewController!
 
     var tappedButton : UIButton!
     var currentView : String!
@@ -30,13 +30,28 @@ class TabBarViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+        
         var storyboard = UIStoryboard(name: "Main", bundle: nil)
         homeViewController = storyboard.instantiateViewControllerWithIdentifier("HomeViewController") as UIViewController
         searchViewController = storyboard.instantiateViewControllerWithIdentifier("SearchViewController") as UIViewController
         accountViewController = storyboard.instantiateViewControllerWithIdentifier("AccountViewController") as UIViewController
         trendingViewController = storyboard.instantiateViewControllerWithIdentifier("TrendingViewController") as UIViewController
+        loginViewController = storyboard.instantiateViewControllerWithIdentifier("LoginViewController") as UIViewController
+        
+        
+        
+        onTap(homeButton)
+        
     }
+    
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+        var destinationVC = segue.destinationViewController as ComposeViewController
+        destinationVC.modalPresentationStyle = UIModalPresentationStyle.Custom
+        destinationVC.transitioningDelegate = destinationVC as ComposeViewController
+        
+    }
+
     
     @IBAction func onTap(sender: AnyObject) {
 
@@ -93,6 +108,8 @@ class TabBarViewController: UIViewController {
         }
         
     }
+    
+    
     
     
 }
