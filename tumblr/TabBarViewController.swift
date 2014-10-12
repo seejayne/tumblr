@@ -23,10 +23,9 @@ class TabBarViewController: UIViewController {
     @IBOutlet weak var searchButton: UIButton!
     @IBOutlet weak var accountButton: UIButton!
     @IBOutlet weak var trendingButton: UIButton!
-
     @IBOutlet weak var composeButton: UIButton!
-    
     @IBOutlet weak var contentView: UIView!
+    @IBOutlet weak var exploreImage: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,6 +40,13 @@ class TabBarViewController: UIViewController {
         
         
         onTap(homeButton)
+        
+        
+        
+        UIView.animateWithDuration(0.6, delay: 0, options: UIViewAnimationOptions.Autoreverse | UIViewAnimationOptions.CurveEaseInOut | UIViewAnimationOptions.Repeat , animations: { () -> Void in
+            self.exploreImage.frame.origin.y = 445
+        }, completion: nil)
+        
         
     }
     
@@ -91,8 +97,11 @@ class TabBarViewController: UIViewController {
         
         if currentView == "search"{
             searchButton.selected = true
+            exploreImage.hidden = true
         } else {
             searchButton.selected = false
+            exploreImage.hidden = false
+
         }
         
         if currentView == "account"{

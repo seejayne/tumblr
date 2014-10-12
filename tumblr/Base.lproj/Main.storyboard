@@ -85,6 +85,10 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.18674723267417315" green="0.24941217875778143" blue="0.33424346301020413" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="explore_popup" id="HmL-U5-B7E">
+                                <rect key="frame" x="0.0" y="450" width="185" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -92,6 +96,7 @@
                         <outlet property="accountButton" destination="zFf-H2-8uO" id="ZAb-Sl-RU3"/>
                         <outlet property="composeButton" destination="ihn-Ds-g5j" id="Ula-sd-DrE"/>
                         <outlet property="contentView" destination="j1Q-D3-hpj" id="e3t-a7-4uG"/>
+                        <outlet property="exploreImage" destination="HmL-U5-B7E" id="SzP-iM-ubY"/>
                         <outlet property="homeButton" destination="B5O-1K-pu9" id="aLo-On-5P7"/>
                         <outlet property="searchButton" destination="CYJ-p6-5hR" id="c8I-4N-NZx"/>
                         <outlet property="trendingButton" destination="cAJ-nO-pQI" id="fRm-D7-9v5"/>
@@ -350,6 +355,7 @@
         <image name="account_selected_icon" width="35" height="35"/>
         <image name="chat_icon" width="75" height="96"/>
         <image name="compose_button" width="50" height="35"/>
+        <image name="explore_popup" width="185" height="77"/>
         <image name="home" width="320" height="524"/>
         <image name="home_icon" width="35" height="35"/>
         <image name="home_overlay" width="320" height="100"/>
